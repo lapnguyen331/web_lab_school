@@ -1,0 +1,60 @@
+body{
+    border: solid  black ;
+    margin:10px 30% 0 30%;
+    padding: 0;
+    height: 180px;
+
+    
+}
+.hehe{
+    background-color: gray;
+   
+}
+header, h2, footer,p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;    
+}
+header{
+    border:solid 2px white;
+    background-color: rgb(160, 155, 155);
+}
+h2{
+    font-size: 30px;
+}
+nav{
+    padding: 0;
+    margin: 0;
+}
+section{
+    float: left;
+    padding-left: 10px;
+    background-color: bisque;
+    width: 50%;
+    border: solid 1px black ;
+    height: 130px;
+}
+.main{
+    
+    font-style: bold;
+    font-size: 20px;
+}
+ul{
+    padding: 0;
+    font-weight: 10px;
+}
+li{
+    list-style-type: none;
+}
+.content{
+    background-color: white;
+    width: 46%;
+    float: right;
+    height:130px ;
+    padding-left: 10px;
+    position: 40px;
+    border: solid 1px black;
+}
+footer{
+    text-align: center;
+}
