@@ -1,0 +1,70 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;  
+}
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header{
+    margin-top: 5px;
+    background-color: orange;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 30px;
+}
+header >p {
+    font-size: 25px;
+}
+.Company-slide{
+    color: white;
+    background-color: rgb(129, 128, 128);
+    text-align: center;
+    height: 250px;
+}
+.Company-slide >h1{
+    padding: 40px 0 40px 0;
+
+}
+.Company-slide > p{
+    font-size: 20px;
+}
+.product{
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+.product> h1{
+    font-size: 40px;
+}
+.product-list{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.product-list h2{
+    padding-top: 100px;
+}
+.product-1,.product-2,.product-3,.product-4,.product-5,.product-6{
+    padding: 10px 10px 10px 10px;
+    height: 250px;
+    width: 150px;
+    background-color: rgb(168, 161, 161);
+
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: white;
+}
