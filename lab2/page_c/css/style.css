@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 0 100px 0 100px;
+
+}
+/* header */
+#section_header_2_dark{
+    background-color: #333333;
+}
+#section_header_2_dark .navbar-toggle{
+    display: none;
+}
+#section_header_2_dark  .containerss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+
+}
+#navbar-collapse-02 > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+#navbar-collapse-02 .propClone {
+    list-style: none;
+    padding: 0 50px 0 50px;
+    text-decoration: none;
+    color: #cccccc;
+    list-style: none;
+}
+#navbar-collapse-02 .propClone a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #cccccc;
+    font-weight: 600;
+}
+#navbar-collapse-02 .text_span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffcc33;
+}
+#navbar-collapse-02 .icon-item{
+    padding: 0 10px 0 10px;
+}
+/* slide */
+#section_pix_4{
+    height: 950px;
+}
+#section_pix_4 .creative_header {
+    height: 950px;
+
+}
+#section_pix_4 .pix_video_div video{
+    width: 100%;
+}
+#section_pix_4 .section_wrapper {
+    display: block;
+    position: relative;
+    left: 20%;
+    width: 1000px;
+    top: -650px;
+    /* height: 0px; */
+}
+#section_pix_4  .context_style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section_pix_4 .title_style {
+    padding: 0 0 30px 0;
+}
+#section_pix_4 .title_style span{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+
+}
+#section_pix_4  .subtitle_style{
+    text-align: center;
+    padding: 0px 0 30px 0;
+    color: white;
+
+}
+#section_pix_4  .subtitle_style span{
+    font-size: 20px;
+    color: white;
+
+}
+#section_pix_4 #contact_form{
+    background-color: #201d1b;
+    border: solid 20px #201d1b;
+}
+#section_pix_4 #contact_form input {
+    height: 30px;
+    width: 400px;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+
+}
+#section_pix_4 #contact_form button{
+    width: 180px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #f1c232;
+    color: white;
+}
+#section_pix_4 .note_st{
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    color: white;
+}
+/* form diền thông tin */
+#hidden_pix_1{
+    display: none;
+}
+#section_university_5 .sixteen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: flex-start;
+    padding: 30px 0 30px 0;
+
+}
+#section_university_5 .clearfix{
+    display: none;
+}
+#section_university_5  .psingle_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+#section_university_5  .text_st{
+    padding: 0 0 0 80px;
+}
+#section_university_5 .text_st h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+#section_university_5 .text_st p {
+    font-size: 15px;
+    padding: 10px 0 0 0;
+    color: #999;
+}
+#section_university_5 .omega{
+    background-color: #ebeaea;
+    padding: 20px 30px 20px 30px;
+}
+#section_university_5 .title-style span{
+    font-size: 30px;
+}
+
+/* #section_university_5 .text-style {
+     padding: 0 0 10px 0 ; 
+} */
+#section_university_5 .text-style span{
+    color: #999;
+    padding-bottom: 20px;
+}
+#section_university_5 #contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch
+}
+#section_university_5 #contact_form input{
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px ;
+    width: 400px;
+
+}
+#section_university_5 #countries{
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    width: 420px;
+
+}
+#section_university_5 .submit_btn{
+    width: 420px;
+    height: 40px;
+    background-color: #7cc576;
+    border: solid 1px #7cc576;
+    border-radius: 5px;
+}
+#section_university_5 .submit_btn span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    
+}
+/*  */
+#hidden_pix_6{
+    display: none;
+}
+/* footer */
+#section_ecourse_7{
+    background-color: #f6f6f6;
+}
+#section_ecourse_7 .bg_foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+#section_ecourse_7 .rights_st{
+    color: #999;
+    font-size: 15px;
+
+}
+#section_ecourse_7 .socbuttons{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 60px;
+}
+#section_ecourse_7 .socbuttons span {
+    padding-right: 30px;
+    color: #999;
+    font-size: 15px;
+
+}
+#section_ecourse_7 .bottom-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#section_ecourse_7 .bottom-icons li {
+    padding: 0 10px 0 10px;
+    
+}
+#section_ecourse_7 .bottom-icons a{
+    list-style: none;
+    color: #c5c5c5;
+    text-decoration: none;
+    font-size: 15px;
+}
