@@ -30,9 +30,13 @@ html{
     display: inline-flex;
     flex-direction: row-reverse;
 }
+#section_normal_1 .omega a {
+    padding: 0px 5px 0px 5px;
+}
 #section_normal_1 .htext_style{
     padding: 5px 10px 0 0;
     color: #b6b6b6;
+    font-size:15px ;
 }
 /*  slider*/
 #section_normal_4_2{
