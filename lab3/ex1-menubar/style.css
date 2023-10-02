@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#menu{
+    background-color: rgb(238, 238, 238);
+    margin: 10px 10px 10px 10px;
+    border-left: solid 8px rgb(130, 0, 0) ;
+    border-bottom: solid 2px rgb(130, 0, 0) ;
+}
+.menulist{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.item{
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+.item:hover{
+    background-color: rgb(130, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.menulist div{
+    position: relative;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    list-style: none;
+    padding-left:0 ;
+    background-color: rgb(238, 238, 238);
+    width:max-content; /*lấy theo content dài nhất*/
+    border-bottom: solid 2px rgb(130, 0, 0) ;
+    border-left: none;
+    border-right: none;
+
+}
+.item:hover > .sub-menu{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: stretch;
+    top: 55px;
+    left: 0px;
+   
+}
+.sub-item{
+    border-bottom: solid 1px rgb(144, 141, 141);
+    border-top: solid 1px rgb(144, 141, 141);
+    padding: 15px 20px 15px 20px;
+}
+.sub-item:hover{
+    background-color: rgb(130, 0, 0);
+    color: white;
+    cursor: pointer;
+}
