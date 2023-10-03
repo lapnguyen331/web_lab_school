@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding:0;
+    height: auto;
+    width: auto;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+}
+#contact{
+    margin: 30px 400px 0px 400px;
+    border: solid 1px gray ;
+    background-color: rgb(231, 231, 231);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+    background-color: white;
+    border-radius: 1em;
+}
+.container .wraper{
+    background-color: rgb(243, 238, 238);
+    margin: 5px 0 5px 0;
+    width: 90%;
+    border-radius: 10px;
+}
+.label-input{
+    font-size: 10px;
+    margin: 10px 20px 10px 30px;
+    color: rgb(63, 61, 61);
+    font-weight: 600;
+}
+.container input, .service-chooser{
+    font-size: 15px;
+    margin: 0px 20px 10px 10px;
+    color: black;
+    padding: 0px 20px 0px 20px;
+    width: 86%;
+    border: none;
+    background-color: rgb(243, 238, 238);
+}
+.service-chooser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mail-phoneSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 10px 0px 10px 0;
+    width: 100%;
+    /* height: 150px; */
+    border-radius: 10px;
+}
+.mail,.phone{
+    font-size: 15px;
+    color: black;
+    border: none;
+    margin: 0 0px 0 30px;
+    background-color: rgb(243, 238, 238);
+    width: 43%;
+    border-radius: 1em;
+
+}
+.mail-phoneSec input{
+    width: 80%;
+    
+}
+.phone{
+    margin-left: 10px;
+}
+/* bỏ broder khi nhập text input */
+.container input:focus{
+    outline: none;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+#contact .message{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.message textarea{
+    border: none;
+    font-size: 15px;
+    padding: 0 10px 0 30px;
+}
+.message textarea:focus{
+    outline: none;
+}
+#contact .submit{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    border-radius: 5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+#contact .submit span{
+    font-size: 20px;
+}
+#contact .submit icon{
+    font-size: 15px;
+    padding-left: 10px;
+}
