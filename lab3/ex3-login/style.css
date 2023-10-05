@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    /* background */
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#sign-in{
+    display: block;
+}
+.container{
+    margin: 30px 600px 30px 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.input-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-con h2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.input-con input {
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 2em;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgb(223, 212, 212);
+}
+.signin-but{
+    display: flex;
+    margin-top: 30px;
+    background-color: blueviolet;
+    height: 40px;
+    width: 150px;
+    border-radius: 2em;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.signin-but span{
+    font-size: 15px;
+    color: azure;
+    font-weight: 700;
+    
+}
+.other-login{
+    margin-top: 30px;
+}
+.other-login .ltext{
+    color: rgb(141, 140, 140);
+}
+.login-icon{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#sign-in  icon{
+    font-size: 30px;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 2px 2px 2px 2px rgb(223, 212, 212);
+    color: black;
+
+}
+.signup-but{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+.signin-but span{
+    font-size: 16px;
+    color: rgb(244, 241, 241);
+}
