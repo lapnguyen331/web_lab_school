@@ -5,9 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
     <title>Document</title>
 </head>
 <body>
-    <p>hehe</p>
+    <div id="payment-form">
+        <div class="main-container">
+            <div class="account-sec">
+                <h2>Account</h2>
+                <div class="account-input">
+                    <icon class="fas fa-user"></icon>
+                    <input type="text" placeholder="FULL NAME">
+                </div>
+                <div class="account-input">
+                    <icon class="fas fa-envelope"></icon>
+                    <input  type="text" placeholder="EMAIL ADRESS">
+                </div>
+                <div class="account-input">
+                    <icon class="fas fa-key fa-rotate-270"></icon>
+                    <input type="password" placeholder="PASSWORD">
+                </div>
+            </div>
+            <div class="birth-gender-sec">
+                <div class="date">
+                    <h2>Date of Birth</h2>
+                    <div class="inputHeading">
+                        <input class="block" type="text" placeholder="DD">
+                        <input class="block" type="text" placeholder="MM">
+                        <input class="block" type="text" placeholder="YYYY">
+                    </div>
+                    
+                </div>
+                <div class="gender">
+                    <h2>Gender</h2>
+                    <div class="inputHeading1">
+                        <input class="block" type="button" value="MALE">
+                        <input  class="block" type="button" value="FEMALE">
+                    </div>
+                </div>  
+            </div>
+            <div class="payment-detail-sec">
+                <h2>Payment Details</h2>
+                <div class="payment-method">
+                    <button class="creditcard  block">
+                        <icon class="fab fa-cc-visa"></icon>
+                        <span>CREDIT CARD</span>
+                    </button>
+                    <button class="paypal block">
+                        <icon  class="fab fa-cc-paypal"></icon>
+                        <span>PAYPAL</span>
+                    </button>
+                </div>
+                <div class="payment-numberinput">
+                    <icon class="far fa-credit-card"></icon>
+                    <input  type="text" placeholder="CARD NUMBER">
+                </div>
+                <div class="card-date">
+                    <div class="CVC-input">
+                        <icon class="fas fa-user"></icon>
+                        <input class=" block" type="text" placeholder="CARD CVC">
+                    </div>
+                    <div class="date-block">
+                        <div class="date-togglelist">
+                            <select id="month" name="month">
+                            <option value="au">01 Jan</option>
+                            </select>
+                       </div>
+
+                       <div class="year-togglelist">
+                            <select id="year" name="year">
+                            <option value="year">2011</option>
+                            </select>
+                      </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="term-condition-sec">
+                <h2>Term and Conditions</h2>
+                <div class="content">
+                    <input type="checkbox">
+                    <span>I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy</span>
+                </div>
+               
+            </div>
+        </div>
+    </div>
 </body>
 </html>
