@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.but{
+    width: 20%;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+textarea{
+    margin-bottom: 20px;
+}

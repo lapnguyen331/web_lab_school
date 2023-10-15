@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#payment-form{
+   padding-top: 30px;
+    display: flex;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.main-container{
+    /* display: flex;
+    flex-direction: column; */
+ 
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+}
+.main-container h2 {
+    font-size: 18px;
+    color:rgb(125,211,33);
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.block{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fbfbfb; 
+}
+/* account sec */
+.account-sec .account-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid gray;
+    margin: 20px 0 0px 0;
+    background-color: #fbfbfb; 
+    border-radius: 5px;
+}
+#account-valid {
+    display:none ;
+    border-top: 5px;
+    margin-left: 55px;
+    margin-top: 10px;
+    color: red;
+}
+#date-valid{
+    display:none ;
+    border-top: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
+}
+#card-valid,#term-valid{
+    display:none ;
+    border-top: 5px;
+    margin-left: 55px;
+    color: red;
+
+}
+#term-valid{
+    display:none ;
+    border-top: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: red;
+}
+
+.account-input icon{
+    height: 50px;
+    width: 40px;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+#payment-form .fa-key{
+    top:0px;
+    left:10px
+}
+.account-input input {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-left: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    height: 30px;
+    font-size: 16px;
+}
+.account-input input:focus {
+    outline: none;
+    border-left: 1px solid gray;
+}
+/* date */
+.birth-gender-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.date, .gender{
+    width: 48%;
+}
+.inputHeading{
+    display: inline-flex;
+    flex-direction: row;
+}
+.inputHeading input {
+    width:50px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 10px 0px 10px;
+    font-size: 16px;
+    text-align: left;
+}
+.inputHeading1{
+    display: inline-flex;
+    flex-direction: row;
+}
+.inputHeading1 input{
+    width:160px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin: 0px 10px 0px 10px; */
+    font-size: 16px;
+    text-align: center;
+    color: rgb(123, 122, 122);
+}
+.inputHeading1 input[type=button]:focus{
+    background-color: rgb(125,211,33) ;
+}
+
+/* payment */
+.payment-method{
+    display: flex;
+    flex-direction: row;
+}
+.creditcard, .paypal{
+    width:50%;
+    height: 60px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    color: rgb(123, 122, 122);
+    border: 1px solid gray;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.inputHeading1 input[type=button]:hover{
+    cursor: pointer;
+}
+.creditcard:hover, .paypal:hover{
+    cursor: pointer;
+}
+.creditcard:focus, .paypal:focus{
+    background-color: rgb(125,211,33) ;
+}
+
+.payment-method icon {
+    /* width: 40px; */
+    font-size: 30px;
+    padding: 10px 10px 0px 10px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.payment-method span {
+    font-size: 16px;
+}
+.payment-numberinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: #fbfbfb; 
+    /* margin-bottom: 20px; */
+}
+.payment-numberinput icon{
+    height: 50px;
+    width: 40px;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.payment-numberinput input {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-left: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    height: 30px;
+    font-size: 16px;
+}
+.payment-numberinput input[type=text]:focus {
+    outline: none;
+    border-left: 1px solid gray;
+}
+
+.card-date{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.CVC-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: #fbfbfb; 
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+}
+.CVC-input icon{
+    height: 50px;
+    width: 40px;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.CVC-input input {
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    border-left: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    height: 30px;
+    font-size: 16px;
+}
+.CVC-input input:focus {
+    outline: none;
+    border-left: 1px solid gray;
+}
+.date-block{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.date-togglelist select,.year-togglelist select{
+    width:150px;
+    height: 70px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 10px 0px 10px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+}
+.term-condition-sec .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content span{
+    padding-left: 10px;
+}

@@ -1,0 +1,13 @@
+p{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 50%;
+    height: fit-content;
+    font-size: 30px;
+    font-weight: 700;
+
+}
